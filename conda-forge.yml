@@ -1,0 +1,7 @@
+conda_build_tool: rattler-build
+bot:
+  version_updates:
+    sources:
+    - githubreleases
+    allowed_tag_globs:
+    - v[0-9]*.[0-9]*
