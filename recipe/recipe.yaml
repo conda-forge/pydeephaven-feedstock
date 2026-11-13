@@ -1,5 +1,5 @@
 context:
-  version: "42.6"
+  version: "42.7"
 
 package:
   name: pydeephaven
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/deephaven/deephaven-core/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 9ffb349a5495909c7c0e6fe2958b084eed6a514f1103024e44a1a33a6e4da5fb
+  sha256: 36c43ab00df3820ea7984df1e2388bab01a179a6e4acbd74ab9c8523a91f215b
 
 build:
   noarch: python
